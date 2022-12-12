@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply scroll-smooth font-inter;
+  }
+}
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-[1440px] px-3;
+  }
+  /* grid-cols-[110px_minmax(200px,_1fr)_90px] */
+  .navbar {
+    @apply grid grid-cols-2 md:grid-cols-[130px_minmax(200px,_1fr)_150px] lg:grid-cols-[200px_minmax(200px,_1fr)_250px] xl:grid-cols-3;
+  }
+  .form-block {
+    @apply flex w-full items-center;
+  }
+  @media (max-width: 767px) {
+    .form-block {
+      @apply hidden;
+    }
+  }
+}
