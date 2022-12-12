@@ -17,7 +17,7 @@ export default function Layout({ children, title }: Props) {
       </Head>
       <div className="app">
         <Navbar />
-        {children}
+        <main className="main">{children}</main>
         <Footer />
       </div>
     </>
@@ -25,5 +25,5 @@ export default function Layout({ children, title }: Props) {
 }
 
 Layout.defaultProps = {
-    title: 'Airbnb'
-}
+  title: 'Airbnb',
+};

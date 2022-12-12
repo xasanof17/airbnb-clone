@@ -8,7 +8,7 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        red: '#FF385C',
+        radical: '#FF385C',
       },
     },
   },

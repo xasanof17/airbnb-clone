@@ -4,7 +4,7 @@ const footer = () => {
   return (
     <footer>
       <div className="container">
-        <div className="flex items-center">footer</div>
+        <div className="flex items-center"></div>
       </div>
     </footer>
   );

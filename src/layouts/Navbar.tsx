@@ -29,7 +29,7 @@ const Navbar = () => {
             />
             <button
               type="submit"
-              className="hidden p-2 items-center justify-center rounded-full bg-red md:inline-flex"
+              className="hidden p-2 items-center justify-center rounded-full bg-radical md:inline-flex"
             >
               <span className="pointer-events-none">
                 <IoSearchOutline
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="flex items-center justify-end space-x-2 text-gray-500">
           <button
             type="submit"
-            className="flex p-2  items-center justify-center rounded-full bg-red md:hidden"
+            className="flex p-2  items-center justify-center rounded-full bg-radical md:hidden"
           >
             <span className="pointer-events-none">
               <IoSearchOutline
@@ -56,8 +56,8 @@ const Navbar = () => {
               />
             </span>
           </button>
-          <button className="flex items-center rounded-full border border-transparent bg-transparent p-2 duration-300 hover:border-slate-300 hover:bg-[#F7F7F7] lg:space-x-4">
-            <p className="hidden lg:inline">Become a host</p>
+          <button className="flex items-center rounded-full border border-transparent bg-transparent p-2 duration-300 hover:border-slate-300 hover:bg-[#F7F7F7] lg:space-x-2">
+            <p className="hidden lg:block">Become a host</p>
             <AiOutlineGlobal fontSize={20} />
           </button>
           <div className="flex items-center space-x-2 rounded-full border-2 p-2">

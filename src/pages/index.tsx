@@ -1,11 +1,10 @@
-import Image from 'next/image';
+import { Banner } from '../components';
 import Layout from '../layouts';
 
 export default function Home() {
   return (
     <Layout>
-      <h1 className="underline">hello world</h1>
-      
+      <Banner />
     </Layout>
   );
 }
