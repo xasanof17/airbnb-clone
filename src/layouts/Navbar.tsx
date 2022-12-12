@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link href={'/'}>
             <div className="relative flex h-8 w-[105px] items-center justify-center">
-              <Image src={'/assets/airbnb.png'} alt="airbnb" fill />
+              <Image src={'/assets/airbnb.png'} alt="airbnb" fill priority />
             </div>
           </Link>
         </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
             />
             <button
               type="submit"
-              className="hidden p-2 items-center justify-center rounded-full bg-radical md:inline-flex"
+              className="hidden items-center justify-center rounded-full bg-radical p-2 md:inline-flex"
             >
               <span className="pointer-events-none">
                 <IoSearchOutline
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="flex items-center justify-end space-x-2 text-gray-500">
           <button
             type="submit"
-            className="flex p-2  items-center justify-center rounded-full bg-radical md:hidden"
+            className="flex items-center justify-center rounded-full bg-radical p-2 md:hidden"
           >
             <span className="pointer-events-none">
               <IoSearchOutline
