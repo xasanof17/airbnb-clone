@@ -10,7 +10,7 @@ export default function Home({ categories }: Props) {
   return (
     <Layout>
       <Banner />
-      <Explore categories={categories} />
+<!--       <Explore categories={categories} /> -->
     </Layout>
   );
 }
